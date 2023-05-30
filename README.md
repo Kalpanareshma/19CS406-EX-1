@@ -30,9 +30,11 @@ s=socket.socket()
 s.bind(('localhost',8080))
 
 s.listen(5)
+
 c,addr=s.accept()
+
 while True:
-	i=input("ENter a data:")
+        i=input("ENter a data:")
 	c.send(i.encode())
 	ack=c.recv(1024).decode()
 	if ack:
