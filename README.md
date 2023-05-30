@@ -2,11 +2,11 @@
 
 DATE :
 
-### AIM :
+## AIM :
 To write a python program to perform client server model.
 
 
-### ALGORITHM :
+## ALGORITHM :
 1. Start the program.
 2. Get the frame size from the user
 3. To create the frame based on the user request.
@@ -17,27 +17,26 @@ To write a python program to perform client server model.
 
 
 
-### CLIENT PROGRAM :
-## Developed By : KALPANA S
+## CLIENT PROGRAM :
+## Developed By : Kalpana S
 ## Reg No : 212222040069
-
 import socket
 s=socket.socket()
 s.bind(('localhost',8080))
 s.listen(5)
 c,addr=s.accept()
 while True:
-        i=input("ENter a data:")
+	i=input("ENter a data:")
 	c.send(i.encode())
 	ack=c.recv(1024).decode()
 	if ack:
 		print(ack)
 		continue
 	else:
-	        c.close()
+		c.close()
 		break
 
-### SERVER PROGRAM :
+## SERVER PROGRAM :
 import socket
 
 s=socket.socket()
@@ -52,17 +51,17 @@ while True:
 
 
 
-### OUTPUT:
-### SERVER OUTPUT:
+## OUTPUT:
+## SERVER OUTPUT:
 ![server output](https://github.com/Kalpanareshma/19CS406-EX-1/assets/122040453/73247d2a-81e7-45d5-b455-6cdcb5e1d22b)
-### CLIENT OUTPUT:
+## CLIENT OUTPUT:
 ![CLIENT OUTPUT](https://github.com/Kalpanareshma/19CS406-EX-1/assets/122040453/15b717be-4ee9-4dd5-a21d-2481e46af17b)
 
 
 
 
 
-### RESULT:
+## RESULT:
 Thus, python program to perform stop and wait protocol was successfully executed.
 
 
