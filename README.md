@@ -39,8 +39,7 @@ while True:
    	continue
    else:
    	c.close()
-   	break
-    
+   	break    
 ### SERVER PROGRAM :
 
 
@@ -50,10 +49,8 @@ import socket
 s=socket.socket()
 s.connect(('localhost',8080))
 while True:
-        print(s.recv(1024).decode())
+	print(s.recv(1024).decode())
 	s.send("Recieved".encode())
-
-
 
 
 
