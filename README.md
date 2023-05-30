@@ -23,8 +23,6 @@ To write a python program to perform client server model.
 
 ### Developed By : KALPANA S
 ### Reg No : 212222040069
-
-
 import socket
 s=socket.socket()
 s.bind(('localhost',8080))
@@ -39,19 +37,16 @@ while True:
    	continue
    else:
    	c.close()
-   	break    
+   	break
+
+
 ### SERVER PROGRAM :
-
-
-
-
 import socket
 s=socket.socket()
 s.connect(('localhost',8080))
 while True:
 	print(s.recv(1024).decode())
 	s.send("Recieved".encode())
-
 
 
 
