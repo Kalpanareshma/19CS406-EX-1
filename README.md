@@ -24,8 +24,11 @@ To write a python program to perform client server model.
 ### Developed By : KALPANA S
 ### Reg No : 212222040069
 import socket
+
 s=socket.socket()
+
 s.bind(('localhost',8080))
+
 s.listen(5)
 c,addr=s.accept()
 while True:
