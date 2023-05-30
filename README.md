@@ -20,8 +20,11 @@ To write a python program to perform client server model.
 ### CLIENT PROGRAM :
 
 
-Developed By : KALPANA S
-Reg No : 212222040069
+
+### Developed By : KALPANA S
+### Reg No : 212222040069
+
+
 import socket
 s=socket.socket()
 s.bind(('localhost',8080))
@@ -39,6 +42,8 @@ while True:
    	break
     
 ### SERVER PROGRAM :
+
+
 
 
 import socket
