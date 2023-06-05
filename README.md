@@ -53,9 +53,10 @@ while True:
 
 ## OUTPUT:
 ## SERVER OUTPUT:
-![server output](https://github.com/Kalpanareshma/19CS406-EX-1/assets/122040453/73247d2a-81e7-45d5-b455-6cdcb5e1d22b)
+![ex01 server output](https://github.com/Kalpanareshma/19CS406-EX-1/assets/122040453/d544d13d-a13e-4c28-8bbc-1c5e115a1740)
 ## CLIENT OUTPUT:
-![CLIENT OUTPUT](https://github.com/Kalpanareshma/19CS406-EX-1/assets/122040453/15b717be-4ee9-4dd5-a21d-2481e46af17b)
+![ex01 client output](https://github.com/Kalpanareshma/19CS406-EX-1/assets/122040453/bf0c22e8-7c23-4cd4-be7a-86ad16990062)
+
 
 
 
